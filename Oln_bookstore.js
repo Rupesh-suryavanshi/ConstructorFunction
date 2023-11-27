@@ -24,8 +24,8 @@ Book.prototype.getBookInfo = function() {
 const author1 = new Author("Arundhati Roy", 1961, "Indian");
 const author2 = new Author("Chetan Bhagat", 1974, "Indian");
 
-const book1 = new Book("The God of Small Things", author3, "Fiction", 22);
-const book2 = new Book("Five Point Someone", author4, "Fiction", 15);
+const book1 = new Book("The God of Small Things", author1, "Fiction", 22);
+const book2 = new Book("Five Point Someone", author2, "Fiction", 15);
 
 book1.getBookInfo();
 book2.getBookInfo();
